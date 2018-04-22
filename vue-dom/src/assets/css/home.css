@@ -1,0 +1,25 @@
+/*slide*/
+#slide{width:100%;height:3rem;overflow: hidden;position:relative;margin-top:.15rem}
+#slide .swiper-slide{text-align:center;height:3rem;}
+#slide .swiper-slide img{width:100%;height:3rem;}
+#slide .pagination{position: absolute; z-index: 20; bottom:5px; width:100%; text-align: center; right:0;}
+#slide .swiper-pagination-bullet{display: inline-block; width:15px; height:5px; border-radius:0; background:green; margin: 0 2px; opacity: 0.8; cursor: pointer;}
+#slide .swiper-pagination-bullet-active{background:#97d38d;}
+
+.categoryLiIcon{overflow:hidden;background:white;margin:.15rem 0;padding-bottom:.5rem;}
+.categoryLiIcon li{float:left;width:25%;overflow:hidden;margin-top:.25rem;}
+.categoryLiIcon li a{display:block;text-align:center;}
+.categoryLiIcon li a img{width:1rem;height:1rem;border-radius:50%;margin:.1rem 0;}
+.categoryLiIcon li a em{display:block;font-style:normal;color:#666;}
+.tab_proList{padding:0 3%;overflow:hidden;background:white;margin:0;}
+.tab_proList dt{padding:.1rem 0;height:.65rem;line-height:.65rem;display:box;display:-webkit-box;display:-moz-box;border-bottom:1px #f8f8f8 solid;}
+.tab_proList dt a{display:block;box-flex:1;-webkit-box-flex:1;-moz-box-flex:1;border-right:1px #d2d2d2 solid;text-align:center;}
+.tab_proList dt a:last-child{border:none;}
+.tab_proList dt .currStyle{color:#ff7d00;}
+.tab_proList dd{margin:.23rem 0;}
+.tab_proList dd li{overflow:hidden;border-bottom:1px #f1f1f1 dotted;padding:.15rem 0;}
+.tab_proList dd li:last-child{margin:0;}
+
+/* hover cart
+.hoverCart{background:#d2d2d2;width:.75rem;height:.75rem;box-shadow:0 0 2px #d2d2d2;line-height:.75rem;text-align:center;border-radius:50%;position:fixed;bottom:1.2rem;right:3%;}
+.hoverCart a{display:block;width:.52rem;height:.52rem;text-align:center;line-height:.52rem;position:absolute;top:-0.2rem;right:0;background:red;border-radius:50%;color:white;font-size:.2rem;} */

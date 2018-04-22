@@ -1,0 +1,17 @@
+/*product:bigImg*/
+.pro_bigImg{height:5rem;text-align:center;background:white;padding:.23rem 0;}
+.pro_bigImg img{width:auto;max-width:100%;height:5rem;}
+.pro_baseInfor{background:white;padding:.23rem 3%;margin:.12rem 0;}
+.pro_baseInfor h2{line-height:1.2;color:#333;}
+.pro_baseInfor p{margin:.15rem 0;}
+.pro_baseInfor p strong{color:red;font-size:.5rem;margin-right:.15rem;}
+.pro_baseInfor p strong:before{content:"￥";font-size:.3rem;}
+.pro_baseInfor p del{color:grey;}
+.pro_baseInfor p del:before{content:"￥";}
+.pro_attr{background:white;margin:.15rem 0;padding:0 3%;}
+.pro_attr dt{height:.75rem;line-height:.75rem;border-bottom:1px #d2d2d2 solid;color:#999;}
+.pro_attr dd{overflow:hidden;margin:.15rem 0;}
+.pro_attr dd li{float:left;width:46%;margin:.15rem 2%;}
+.pro_attr dd li span{color:#999;}
+.pro_attr dd li span:after{content:"：";}
+.pro_attr dd li em{color:grey;font-style:normal;}

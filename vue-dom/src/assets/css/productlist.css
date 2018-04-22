@@ -1,0 +1,18 @@
+/*product list*/
+body{background: #fff}
+.sift_nav{height:1rem;line-height:1rem;display:box;display:-webkit-box;display:-moz-box;background:#f8f8f8;}
+.sift_nav li{box-flex:1;-webkit-box-flex:1;-moz-box-flex:1;text-align:center;position:relative;}
+.sift_nav li a{display:block;color:grey;}
+.sift_nav li a:after{font-family:'freshregular';margin-left:.05rem;}
+.sift_nav li .des_icon:after{content:"0";}
+.sift_nav li .asc_icon:after{content:"1";}
+.sift_nav li .drop_icon:after{content:"0";}
+.sift_nav li .drop_list{display:none;position:absolute;top:1rem;width:100%;border:1px #f8f8f8 solid;background:#f9f9f9;border-top:none;border-radius:0 0 2px 2px;z-index:2;}
+.sift_nav li .drop_list li{height:.75rem;line-height:.75rem;border-bottom:1px white solid;padding:0 .5rem;}
+.sift_nav li .drop_list li:last-child{border:none;}
+.sift_nav li .drop_list li a{color:grey;display:block;}
+
+/*product list*/
+.productList{overflow:hidden;margin:0 3%;}
+.productList li{overflow:hidden;border-bottom:1px #f1f1f1 dotted;padding:.15rem 0;}
+.productList li:last-child{margin:0;}
