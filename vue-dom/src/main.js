@@ -9,14 +9,14 @@ Vue.prototype.$http=axios;
 import routes from './router.config';
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 Vue.use(VueAwesomeSwiper)
-
+//gouwuche
 
 // 请求之前  拦截器，显示loading
 axios.interceptors.request.use(function (config) {
   store.dispatch('showLoading');
   console.log("bulalalla 11223")
   return config;
-  
+
 }, function (error) {
   return Promise.reject(error);//交给了catch处理
 });
